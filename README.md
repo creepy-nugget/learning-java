@@ -44,7 +44,7 @@ methods from a more abstract superclass.
 * At runtime, a Java program is nothing more
 than objects “talking” to other objects.
 
-### Varibles:
+### Variables:
 
 * Variables come in two flavors: primitive and
 reference.
