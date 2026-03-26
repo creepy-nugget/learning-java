@@ -50,7 +50,7 @@ class GuessGame {
                 break; // game over so exit loop
             } else{
                 //Try again as no one got it right :(
-                Sytem.out.println("Players will have to try again.");
+                System.out.println("Players will have to try again.");
             } // end if/else
         } //end loop
     } // end method

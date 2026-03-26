@@ -13,7 +13,7 @@ public class basics {
         if (y == 22) {
             System.out.println("y is 22");
         } else if (y == 33) {
-            System.out.println("y is not 33");
+            System.out.println("y is 33");
         } else {
             System.out.println("last is else statement");
         }
