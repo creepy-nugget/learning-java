@@ -101,3 +101,25 @@ as a Rabbit. Same thing with
 parameters. You can’t pass a
 Giraffe into a method that takes
 a Rabbit.
+
+### Encapsulation:
+
+* Encapsulation gives you control over who changes the
+data in your class and how.
+* Make an instance variable private so it can’t be changed
+by accessing the variable directly.
+* Create a public mutator method, e.g., a setter, to control
+how other code interacts with your data. For example,
+you can add validation code inside a setter to make sure
+the value isn’t changed to something invalid.
+* Instance variables are assigned values by default, even
+if you don’t set them explicitly.
+* Local variables, e.g., variables inside methods, are
+not assigned a value by default. You always need to
+initialize them.
+* Use == to check if two primitives are the same value.
+* Use == to check if two references are the same, i.e., two
+object variables are actually the same object.
+* Use .equals() to see if two objects are equivalent (but
+not necessarily the same object), e.g., to check if two
+String values contain the same characters
