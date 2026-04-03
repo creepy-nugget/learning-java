@@ -1,5 +1,4 @@
 package HFJ.chp5;
-
 public class simplestartup {
     private int[] locationcells;
     private int numofhits = 0;
@@ -7,7 +6,6 @@ public class simplestartup {
     public void setlocationcells(int[] locs){
         locationcells = locs;
     }
-
     public String checkyourselves(int guess){
         String result = "miss";
         for(int cells : locationcells){
