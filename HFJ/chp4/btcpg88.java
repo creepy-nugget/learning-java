@@ -22,7 +22,7 @@ class Clock {
     void setTime(String t) {
         time = t;
     }
-    void getTime() { // void functions have no return values , set it to String type
+    String getTime() { // void functions have no return values , set it to String type
         return time;
     }
 }
