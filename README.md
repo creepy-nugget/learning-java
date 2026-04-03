@@ -122,4 +122,35 @@ initialize them.
 object variables are actually the same object.
 * Use .equals() to see if two objects are equivalent (but
 not necessarily the same object), e.g., to check if two
-String values contain the same characters
+String values contain the same characters.
+
+### How to write a program ?
+Your Java program should start with a high-
+level design.
+* Typically you’ll write three things when you
+create a new class:
+
+   ▪ prep code
+
+   ▪ test code
+
+   ▪ real (Java) code
+
+* Prep code should describe what to do, not
+how to do it. Implementation comes later.
+* Use the prep code to help design the test
+code.
+* A class can have one superclass only.
+* Write test code before you implement the
+methods.
+* Choose for loops over while loops when you
+know how many times you want to repeat the
+loop code.
+* The enhanced for loop is an easy way to loop
+over an array or collection.
+* Use the increment operator to add 1 to a
+variable (x++;).
+* Use the decrement operator to subtract 1 from
+a variable (x--;).
+* Use break to leave a loop early (i.e., even if
+the boolean test condition is still true).
