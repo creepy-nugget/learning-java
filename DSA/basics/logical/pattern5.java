@@ -1,7 +1,7 @@
 class solution5{
 public void pattern5(int n){
-    for(int i=1;i<=n;i++){
-        for(int j=n;j>=0;j--){
+    for(int i=n;i>0;i--){
+        for(int j=i;j>0;j--){
             System.out.print("*");
         }
         System.out.println();
