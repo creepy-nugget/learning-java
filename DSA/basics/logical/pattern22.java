@@ -1,4 +1,4 @@
-class Solution {
+class Solution22 {
     public void pattern22(int n) {
         for (int i = 0; i < 2 * n - 1; i++) {
             for (int j = 0; j < 2 * n - 1; j++) {
@@ -16,8 +16,8 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution sol = new Solution();
-        int N = 5;
-        sol.pattern22(N);
+        Solution22 sol = new Solution22();
+        int n = 5;
+        sol.pattern22(n);
     }
 }

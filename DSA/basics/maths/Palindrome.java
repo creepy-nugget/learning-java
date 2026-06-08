@@ -11,7 +11,7 @@ class Palindrome{
     }
 
     public static void main(String[] args){
-        int n = 14321;
+        int n = 12321;
         Palindrome rn = new Palindrome();
         if(rn.reverse(n)){
             System.out.print("The number"+" "+n+" "+"is palindrome");
