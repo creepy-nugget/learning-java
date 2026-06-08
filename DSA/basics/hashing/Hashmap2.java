@@ -13,6 +13,7 @@ class Hashmap2{
         System.out.print("Enter the elements of arr:");
         for(int i=0;i<s.length();i++){
             char key = s.charAt(i);
+            // the keys here won't be converted into integer,stored as assigned character only.
             mp.put(key,mp.getOrDefault(key,0)+1);
         }
 
