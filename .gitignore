@@ -7,4 +7,5 @@
 *.class
 *.log
 out/
+*.gitignore
 
