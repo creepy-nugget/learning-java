@@ -1,7 +1,0 @@
-class Player{
-
-    void guess(){
-
-    }
-
-}
