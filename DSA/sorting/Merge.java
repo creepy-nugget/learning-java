@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-class Merge{
+public class Merge{
     public void merge(int[] arr, int low ,int mid ,int high){
         List<Integer> temp = new ArrayList<>();
         int left =low;
