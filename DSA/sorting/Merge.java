@@ -1,3 +1,10 @@
+/*
+Time Complexity: O(N* log base2 N), merging two arrays take linear time and
+array is recursively divided into halves (logN times).
+
+Space Complexity: O(N), we use a temporary array to store elements in sorted order.
+*/
+
 import java.util.ArrayList;
 import java.util.List;
 
