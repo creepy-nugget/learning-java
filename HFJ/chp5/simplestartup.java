@@ -1,4 +1,3 @@
-package HFJ.chp5;
 public class simplestartup {
     private int[] locationcells;
     private int numofhits = 0;

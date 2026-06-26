@@ -1,8 +1,10 @@
+package guess_game;
+
 class GuessGame {
     Player p1 = new Player();
     Player p2 = new Player();
     Player p3 = new Player();
-    void startGame(){
+    public void startGame(){
 
         int guessp1 = 0;
         int guessp2 = 0;
@@ -16,10 +18,15 @@ class GuessGame {
         System.out.println("I'm thinking of a number between 0 and 9...");
 
         while (true){
-            System.out.println("Number to guess is "+ targetNumber);
+//            System.out.println("Number to guess is "+ targetNumber);
 
+            System.out.print("Guess by player 1:");
             p1.guess();
+
+            System.out.print("Guess by player 2:");
             p2.guess();
+
+            System.out.print("Guess by player 3:");
             p3.guess();
 
             guessp1 = p1.number;

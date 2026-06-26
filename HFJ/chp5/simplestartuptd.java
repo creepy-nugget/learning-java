@@ -1,4 +1,3 @@
-package HFJ.chp5;
 public class simplestartuptd {
     public static void main(String[] args) {
         int numofguess = 0;

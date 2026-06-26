@@ -1,3 +1,5 @@
+package guess_game;
+
 public class GameaLauncher {
     public static void main(String[] args){
         GuessGame gg = new GuessGame();
