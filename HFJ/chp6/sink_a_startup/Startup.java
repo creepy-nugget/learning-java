@@ -1,4 +1,3 @@
-package sink_a_startup;
 import java.util.ArrayList;
 
 public class Startup{

@@ -1,5 +1,3 @@
-package guess_game;
-
 import java.util.Scanner;
 class Player{
     int number;

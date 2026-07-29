@@ -1,5 +1,3 @@
-package guess_game;
-
 class GuessGame {
     Player p1 = new Player();
     Player p2 = new Player();
